@@ -1,0 +1,8 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	<import resource="member_context.xml"/>
+	<import resource="user_context.xml"/>
+	<import resource="role_context.xml"/>
+	<bean class="com.web.app.context.ServiceApplicationContext"/>
+</beans>
